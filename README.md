@@ -29,7 +29,7 @@ Then run:
   --repository "git@github.com:kakwa/bonjour.git"
 ```
 
-Help:
+## Help
 ```sh
 ./guerrillagit.py --help
 
