@@ -29,6 +29,8 @@ Then run:
   --repository "git@github.com:kakwa/bonjour.git"
 ```
 
+**Disclaimer**: run on dedicated repositories, this script deletes all the repository history, both local and remote.
+
 ## Help
 ```sh
 ./guerrillagit.py --help
