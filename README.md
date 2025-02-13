@@ -1,10 +1,48 @@
-# Write message in your github contributions
+# Guerrilla-Git
 
-Example:
-```bash
-#help
+## Description
+
+Write a small message (up to 10 characters) in your github contributions.
+
+## Requirements
+
+* `Python3`
+* `bdflib`
+* `git`
+
+## Usage
+
+Checkout this tool
+```sh
+git clone https://github.com/kakwa/guerrilla-git
+cd guerrilla-git
+```
+
+In Github, create a bare repository (no template).
+
+Then run:
+```sh
+# Run
+./guerrillagit.py --name "kakwa" \
+  --email "kakwa@example.com"
+  --message "Hello" \
+  --repository "git@github.com:kakwa/bonjour.git"
+```
+
+Help:
+```sh
 ./guerrillagit.py --help
 
-# Run
-./guerrillagit.py --name "kakwa" --email "kakwa@example.com" --message "Hello" --repository "git@github.com:kakwa/bonjour.git"
+usage: guerrillagit.py [-h] --name NAME --email EMAIL [--year YEAR] --message MESSAGE --repository REPOSITORY
+
+Generate Git commits in a pattern
+
+options:
+  -h, --help            show this help message and exit
+  --name NAME           Git author name
+  --email EMAIL         Git author email
+  --year YEAR           Year for the commits (default: auto-detect)
+  --message MESSAGE     Message to encode in commits
+  --repository REPOSITORY
+                        Git repository URL
 ```
