@@ -4,6 +4,8 @@
 
 Write a small message (up to 10 characters) in your github contributions.
 
+![Example](https://cdn.rawgit.com/kakwa/guerrilla-git/master/sc.png)
+
 ## Requirements
 
 * `Python3`
